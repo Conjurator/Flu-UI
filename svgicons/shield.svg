@@ -1,0 +1,26 @@
+<svg width="75px" height="89px" viewBox="0 0 75 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="42.2699617%" y1="-10.3705045%" x2="64.741212%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A46FFF" offset="0%"></stop>
+            <stop stop-color="#6D4FFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.0996080643,14.0614178 L37.0432383,0 L74.8352051,13.4632929 L74.3891135,51.7914275 C74.3891135,51.7914275 74.3138117,74.1803655 37.2067099,88.4796035 C37.2067099,88.4796035 1.24343273,75.122591 0,52.2556297 C0,52.8137208 0.0996080643,14.0614178 0.0996080643,14.0614178 Z" id="path-2"></path>
+    </defs>
+    <g id="规范文档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全局图标" transform="translate(-224.000000, -1592.000000)">
+            <g id="Group-10" transform="translate(224.000000, 1592.000000)">
+                <g id="未授权-彩">
+                    <g id="Path-5">
+                        <use fill="#6959F4" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="37.5" cy="71.5" r="2.5"></circle>
+                    <path d="M24,32.0405128 C24,32.0405128 24.4316406,17.3564307 38.6665039,18.0219581 C52.9013672,18.6874854 55.4311523,34.0971534 44.7827148,41.5737159 C44.7827148,41.5737159 36.4177759,46.8198097 37.6682642,56.2900245" id="Path-7" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

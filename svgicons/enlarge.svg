@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="30px" viewBox="0 0 28 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>放大</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="规范文档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全局图标" transform="translate(-408.000000, -866.000000)">
+            <g id="放大" transform="translate(410.000000, 868.000000)">
+                <rect id="Rectangle-6" fill="#FFFFFF" x="5.43037975" y="8.72413793" width="8.25949349" height="1.93103448" rx="0.965517241"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" transform="translate(9.560126, 9.689655) rotate(90.000000) translate(-9.560126, -9.689655) " x="5.43037975" y="8.72413793" width="8.25949349" height="1.93103448" rx="0.965517241"></rect>
+                <ellipse id="Oval-6" stroke="#FFFFFF" stroke-width="2.26039783" cx="9.49924568" cy="9.66084204" rx="9.49924568" ry="9.66084204"></ellipse>
+                <path d="M15.4749993,17.4285319 L24.8417722,26.8390805" id="Path-15" stroke="#FFFFFF" stroke-width="2.26039783" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>登录</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="规范文档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全局图标" transform="translate(-75.000000, -459.000000)" stroke="#96999E" stroke-width="1.04928571">
+            <g id="登录" transform="translate(76.000000, 460.000000)">
+                <ellipse id="Oval-3" cx="5.28426107" cy="3.96003069" rx="3.45092773" ry="3.49574498"></ellipse>
+                <path d="M10.5734456,12.783953 C10.5734456,9.82625742 8.20649921,7.42857143 5.28672282,7.42857143 C2.36694643,7.42857143 0,9.82625742 0,12.783953" id="Oval-4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,61 @@
+.xk-button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 500;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.5;
+  padding: 0 15px;
+  user-select: none;
+  background: #eeeeee;
+  border-color: #dde3ec;
+  color: #54595c;
+  &-ghost {
+    background: none;
+    color: #576b94;
+    border-color: #e5e5e5;
+  }
+  &-default {
+    min-width: 100px;
+    height: 36px;
+  }
+  &-small {
+    min-width: 90px;
+    height: 32px;
+  }
+  &-large {
+    min-width: 124px;
+    height: 38px;
+    font-size: 18px;
+  }
+  &-primary {
+    background: #6947f4;
+    color: #fff;
+    &:hover {
+      background: #5947f3;
+    }
+    &.xk-button-ghost {
+      background: none;
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+  &-secondary{
+  	background: #fff;
+  	border-color: #dde3ec;
+  }
+  &-danger {
+  }
+  &-disabled {
+    cursor: not-allowed;
+    background: #dedede;
+    color: rgba(0, 0, 0, 0.25);
+    &:hover {
+      background: #dedede;
+      color: rgba(0, 0, 0, 0.25);
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>未通过</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-3.11231006%" x2="60.7271635%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#955DFB" offset="0%"></stop>
+            <stop stop-color="#5938FE" stop-opacity="0.814000226" offset="100%"></stop>
+        </linearGradient>
+        <path d="M99.915,50.0005 C99.915,76.1688333 78.7,97.3838333 52.5316667,97.3838333 C26.3633333,97.3838333 5.14833333,76.1688333 5.14833333,50.0005 C5.14833333,23.8305 26.3633333,2.6155 52.5316667,2.6155 C78.7,2.6155 99.915,23.8305 99.915,50.0005" id="path-2"></path>
+    </defs>
+    <g id="规范文档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全局图标" transform="translate(-1148.000000, -1821.000000)">
+            <g id="未通过" transform="translate(1150.000000, 1823.000000)">
+                <g id="Fill-1">
+                    <use fill="#892EFF" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <path d="M100,50 C100,77.6133333 77.615,100 50,100 C22.3866667,100 0,77.6133333 0,50 C0,22.385 22.3866667,0 50,0 C77.615,0 100,22.385 100,50 Z" id="Stroke-3" stroke="#3E3A39" stroke-width="3.33333333"></path>
+                <g id="Group-5" transform="translate(23.000000, 34.000000)" stroke-width="3.33333333" stroke="#FFFFFF">
+                    <g id="Group-16">
+                        <g id="Group-19" transform="translate(1.000000, 0.000000)">
+                            <path d="M12.1633333,1 C12.1633333,1 12.4816667,10.7183333 0,10.625" id="Stroke-5"></path>
+                            <path d="M38.0007498,1 C38.0007498,1 37.6824165,10.7183333 50.1640831,10.625" id="Stroke-7"></path>
+                            <path d="M5.53083333,42.4013333 C5.53083333,32.328 14.5425,24.163 25.6608333,24.163 C36.7775,24.163 45.7891667,32.328 45.7891667,42.4013333" id="Stroke-9"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

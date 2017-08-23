@@ -1,0 +1,87 @@
+//公共引入
+@import "../../component.scss";
+
+$border-color-split:#dde3ec;
+
+.paginate{
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  span{
+    line-height: 30px;
+    width:80px;
+    height:30px;
+    color:#323232;
+    margin:0px 8px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &-select{
+    display: inline-block;
+    width:50px;
+    height:30px;
+    position: relative;
+    .pageSize{
+      cursor: pointer;
+      border:1px solid $border-color-split;
+      border-radius: 3px;
+      outline: none;
+      width:50px;
+      height:30px;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      padding-left: 15px;
+    }
+    i {
+      position: absolute;
+      top: 32%;
+      right: 20%;
+      cursor: pointer;
+      color: $default-color;
+    }
+  }
+  button.prePage,button.nextPage{
+    display: inline-block;
+    border:1px solid $border-color-split;
+    border-radius: 3px;
+    background: #fff;
+    width:30px;
+    height:30px;
+    position: relative;
+    /*IE*/
+    filter:FlipH;
+    img{
+    	position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    margin-top: -6px;
+	    margin-left: -3px;
+    }
+  }
+
+  .pageInput{
+    text-align:center;
+    margin:0px 8px;
+    width:78px;
+    height:30px;
+    border-radius: 3px;
+    border:1px solid $border-color-split;
+    outline: none;
+    vertical-align: middle;
+  }
+  .goToPage{
+    vertical-align: middle;
+    width:71px;
+    display: inline-block;
+    border:1px solid $border-color-split;
+    border-radius: 3px;
+    background: #fff;
+    line-height: 29px;
+    padding: 0px;
+    color:#5b6e97;
+    &:active{
+    	opacity: 0.8;
+    }
+  }
+}

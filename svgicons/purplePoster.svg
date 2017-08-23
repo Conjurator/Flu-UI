@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="103px" viewBox="0 0 123 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8643FC" offset="0%"></stop>
+            <stop stop-color="#795DFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#7F37FE" offset="0%"></stop>
+            <stop stop-color="#785DFE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#7E3AFE" offset="0%"></stop>
+            <stop stop-color="#7958FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="规范文档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全局图标" transform="translate(-1081.000000, -1570.000000)">
+            <g id="提示" transform="translate(280.000000, 1127.000000)">
+                <g id="Group-3-Copy" transform="translate(801.000000, 443.000000)">
+                    <g id="Group-6">
+                        <rect id="Rectangle-6" stroke="url(#linearGradient-1)" stroke-width="4.76" x="2.38" y="2.38" width="117.491674" height="97.9314062" rx="2.85714286"></rect>
+                        <path d="M8.8817842e-16,92.1102054 L42.8183759,48.7123162 C43.9269428,47.5887458 45.7248981,47.5893673 46.8328517,48.7123162 L69.36633,71.5507675 L81.2348671,59.5215989 C82.3464514,58.3949702 84.1453566,58.3915961 85.26027,59.5215989 L122.251674,97.0136528 L122.251674,99.1905629 L69.36633,99.1905629 L5.77315973e-15,99.1905629 L7.10542736e-15,92.1102054 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                        <ellipse id="Oval-2" stroke="url(#linearGradient-3)" stroke-width="4.76190476" cx="93.1441327" cy="30.3406428" rx="10.4787149" ry="10.5025302"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

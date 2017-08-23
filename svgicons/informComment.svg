@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>评论</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="99.4606557 1.97192333 99.4606557 83.4430332 44.0070101 83.4430332 44.0070101 1.97192333 99.4606557 1.97192333"></polygon>
+        <linearGradient x1="94.3254659%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#955DFB" offset="0%"></stop>
+            <stop stop-color="#5938FE" stop-opacity="0.814000226" offset="100%"></stop>
+        </linearGradient>
+        <path d="M98.9314754,24.8761567 C98.8872131,25.16199 98.8265574,25.46089 98.7659016,25.7614233 C97.2577049,27.2477567 92.8855738,31.42419 90.7609836,32.12979 C89.5101639,32.5348567 89.2839344,33.78109 92.8265574,33.3760233 C94.7855738,33.1506233 96.1888525,32.83539 96.8822951,32.6557233 C95.6462295,36.2147567 93.8970492,40.1053567 91.5757377,43.9502233 C89.1183607,46.0817233 86.1036066,48.27529 83.6003279,48.7718233 C81.2036066,49.2373233 85.1085246,49.7175233 85.1085246,49.7175233 L87.5659016,49.7175233 C81.324918,57.5428233 72.2347541,64.2558233 59.5118033,66.0590233 L44.4380328,83.4213567 C44.4380328,83.4213567 43.7593443,83.58469 44.1052459,83.0146567 L55.1560656,64.67559 C55.1560656,64.67559 45.7265574,12.67189 96.2937705,1.97192333 C96.2937705,1.97192333 101.011803,12.6637233 98.9314754,24.8761567" id="path-4"></path>
+    </defs>
+    <g id="规范文档" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全局图标" transform="translate(-229.000000, -1827.000000)">
+            <g id="评论" transform="translate(231.000000, 1829.000000)">
+                <g id="Group-5" stroke-linecap="round" stroke-width="3.27868852" stroke="#3E3A39" stroke-linejoin="round">
+                    <polygon id="Stroke-1" points="79.5178689 25.5332467 79.5178689 97.9993467 -0.000163934426 97.9993467 -0.000163934426 -0.000653333333 57.4719672 -0.000653333333"></polygon>
+                    <polyline id="Stroke-3" points="57.4716393 -0.000326666667 57.4716393 25.5335733 78.3863934 25.5335733"></polyline>
+                </g>
+                <path d="M14.4236066,16.70949 L45.5137705,16.70949" id="Stroke-6" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.4236066,27.7121133 L45.5137705,27.7121133" id="Stroke-7" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.4236066,38.71637 L55.2498361,38.71637" id="Stroke-8" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.4236066,49.7189933 L55.2498361,49.7189933" id="Stroke-9" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.4236066,60.72325 L55.2498361,60.72325" id="Stroke-10" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.4236066,71.7275067 L68.1088525,71.7275067" id="Stroke-11" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M43.1504918,82.7302933 L42.3308197,82.7302933" id="Stroke-12" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M36.9134426,82.7302933 L17.9527869,82.7302933" id="Stroke-13" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.806557373922379,5.418032896323282"></path>
+                <path d="M15.2432787,82.7302933 L14.4236066,82.7302933" id="Stroke-14" stroke="#3E3A39" stroke-width="3.27868852" stroke-linecap="round" stroke-linejoin="round"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-16"></g>
+                <g id="Fill-15" mask="url(#mask-2)">
+                    <use fill="#892EFF" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

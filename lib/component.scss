@@ -1,0 +1,214 @@
+// =============================================================================
+/**
+ * Copyright (c) 2017-Now xiangkan, All rights reseved.
+ * @Common All in settings for all components
+ * @fileoverview PGC想看开放平台-所有组件公共color及主题、函数
+ * @version 1.0 | 2017-2-10  // Initial version.
+ * @version 1.1 | 2017-2-28  // Modal-Popover and so on componnents
+ * @version 1.2 | 2017-3-27  // Input component and so on
+ * @version 1.3 | 2017-4-5   // All component add some prefix and common mixin
+**/
+// =============================================================================
+//common
+//default
+$default-color: #6959f4;
+$default-light-color: #26b2f7;
+$default-dark-color:#5947f3;
+$default-font-color: #323232;
+$default-info-color: #2e3037;
+$default-border-color: #979797;
+$default-backcolor: #f8f8f8;
+$default-border-light-color: #e7e7eb;
+$default-border-heavy-color: #6d6d6d;
+$text-color: rgba(0, 0, 0, 0.65);
+//font
+$font-size-component: 14px;
+$font-size-small: 12px;
+$font-size-base: 14px;
+$font-size-large: 18px;
+//line-light
+$line-height-base: 1;
+$line-height-component: 1;
+$line-height-big: 1.5;
+//Z-index
+$miui-zindex: 100000;
+//box
+$box-shadow-base:0 1px 6px rgba(0, 0, 0, 0.2);
+$box-shadow-two:0 2px 8px rgba(0, 0, 0, .2);
+//border
+$border-radius-base: 4px;
+$border-width-base: 1px;
+$border-style-base: solid;
+$border-color-split: #e9e9e9;
+//background
+$background-component: #fff;
+$background-component-black: rgba(35, 32, 32, 0.92);
+$background-color-base: #f7f7f7;// basic gray background
+//color
+$success-color: rgb(135, 208, 104);
+$success-heavy-color: #00bc0c;
+$primary-color: #088de6;
+$error-color: #f04134;
+$normal-color: #d9d9d9;
+$processing-color: #108ee9;
+$warning-color: #ffbf00;
+$tip-color: #929292;
+$readed-color: #fafafa;
+$disabled-color: #a5a6aa;;
+
+$primary-1: color(lighten($primary-color, 3%));  // replace tint($primary-color, 90%)
+$primary-2: color(lighten($primary-color, 6%));  // replace tint($primary-color, 80%)
+$primary-3: color(lighten($primary-color, 9%));
+$primary-4: color(lighten($primary-color, 12%));
+$primary-5: color(lighten($primary-color, 15%));  // replace tint($primary-color, 20%)
+$primary-6: $primary-color;                                 // don't use, use $primary-color
+$primary-7: color(lighten($primary-color, 18%));  // replace shade($primary-color, 5%)
+$primary-8: color(lighten($primary-color, 21%));
+$primary-9: color(lighten($primary-color, 24%));
+$primary-10: color(lighten($primary-color, 27%));
+//footer
+$footer-color: #606060;
+$footer-border-heavy-color: #b1b1b1;
+$footer-border-light-color: #f2f2f2;
+
+//各种浏览器前缀
+@mixin prefix($property, $value) { 
+  @each $prefix in -webkit-, -moz-, -ms-, -o-, '' { 
+    #{$prefix}#{$property}: $value; 
+  }
+}
+//clearfix清除浮动
+@mixin clearfix {
+  zoom: 1;
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+  }
+}
+//special border-radius circle
+@mixin roundBox {
+  $radius: 50%;
+  @include prefix(border-radius,$radius)
+}
+// Sizing shortcuts
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin square($size) {
+  @include size($size,$size);
+}
+
+// Placeholder text
+@mixin placeholder($color: $input-placeholder-color) {
+  //Firefox
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+  }
+  // Internet Explorer 10+
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  // Safari and Chrome
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+}
+//simple component for example
+//过渡函数
+$ease-in-out-circ: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+$ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-out-back: cubic-bezier(0.12, 0.4, 0.29, 1.46);
+$ease-in-back: cubic-bezier(0.71, -0.46, 0.88, 0.6);
+
+//Button Component
+$btn-font-weight        : 500;
+$btn-border-radius-base : $border-radius-base;
+$btn-border-radius-sm   : $border-radius-base;
+
+$btn-primary-color      : $background-component;
+$btn-primary-bg         : $primary-color;
+
+$btn-default-color      : $text-color;
+$btn-default-bg         : $background-component;
+$btn-default-border     : $normal-color;
+
+$btn-danger-color      : $background-component;
+$btn-danger-bg         : $error-color;
+
+$btn-disable-color      : $disabled-color;
+$btn-disable-bg         : #f2f2f2;
+$btn-disable-border     : lighten($btn-disable-color,70%);
+
+$btn-font-size-lg       : 1.32rem;
+$btn-font-size-md      : 1.15rem;
+$btn-font-size-sm       : 1rem;
+
+$btn-padding-base       : 0.5rem 1.8rem;
+$btn-padding-lg         : 0.6rem 2.4rem;
+$btn-padding-sm         : 0.4rem 1.2rem;
+
+$btn-circle-size        : 1.6rem;
+$btn-circle-size-lg     : 2.1rem;
+$btn-circle-size-sm     : 1.2rem;
+
+$btn-group-border       : $primary-7;
+// for compatibile
+$btn-ghost-color: $text-color;
+$btn-ghost-bg: transparent;
+$btn-ghost-border: $normal-color;
+
+//Tooltip Component
+$tooltip-arrow-width: 5px;
+$tooltip-distance: 8px;
+$tooltip-max-width: 250px;
+$tooltip-bg: rgba(64, 64, 64, 0.85);
+$tooltip-arrow-color: rgba(64, 64, 64, 0.85);
+
+//Popover Component
+$popover-arrow-width: 6px;
+$popover-arrow-outer-width: 5px;
+$popover-min-width: 177px;
+$popover-arrow-outer-color: rgba(217, 217, 217, 0.7);
+$popover-color: #fff;
+
+//Loading Component
+$loading-dot-size-sm: 14px;
+$loading-dot-size-md: 18px;
+$loading-dot-size-lg: 42px;
+$loading-dot-default:fade(#000, 43%);
+
+//Badge泡沫小红点
+$badge-height: 20px;
+$badge-dot-size: 8px;
+$highlight-color: #f04134;
+
+//Input输入框
+$input-affix-width: 17;
+$input-padding-vertical-lg: 6px;
+$input-height-base: 28px;
+$input-height-lg: 32px;
+$input-height-sm: 22px;
+$input-padding-horizontal: 7px;
+$input-padding-vertical-base: 4px;
+$input-padding-vertical-sm: 1px;
+$input-padding-vertical-lg: 6px;
+$input-placeholder-color: #ccc;
+$input-color: fade(#000, 65%);
+$input-border-color: $normal-color;
+$input-hover-border-color: $primary-color;
+$input-disabled-bg: #f7f7f7;
+$input-bg: $background-component;
+$outline-color: $primary-color;
+$outline-blur-size: 0;
+$outline-width: 2px;
+
+//

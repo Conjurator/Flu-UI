@@ -1,0 +1,61 @@
+//Message层
+.xiangkan-message {
+  font-size: 14px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 16px;
+  left: 0;
+  pointer-events: none;
+  &-notice {
+    padding: 8px;
+    text-align: center;
+    &:first-child {
+      margin-top: 1.48%;
+    }
+  }
+  img{
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+  &-notice-content {
+    padding: 7px 16.8px;
+    //款式1-黑底白字
+    color: #fff;
+    background: #000;
+    //款式2-白底黑字
+    //background: $background-component;
+    //
+    border-radius: 4px;
+    box-shadow: rgba(0,0,0,0.4);
+    
+    display: inline-block;
+    pointer-events: all;
+  }
+  &-custom-content {
+  	line-height: 2;
+  	vertical-align: middle;
+  }
+
+  &-notice.move-up-leave.move-up-leave-active {
+    animation-name: MessageMoveOut;
+    overflow: hidden;
+    animation-duration: .3s;
+  }
+}
+
+@keyframes MessageMoveOut {
+  0% {
+    opacity: 1;
+    max-height: 150px;
+    padding: 8px;
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+    padding: 0;
+  }
+}
