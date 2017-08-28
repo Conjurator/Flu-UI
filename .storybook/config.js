@@ -5,6 +5,7 @@ import './storybook.scss'
 
 function loadStories() {
   require('../stories/Button')
+  require('../stories/Dates')
 }
 
 configure(loadStories, module)
