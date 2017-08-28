@@ -13,13 +13,13 @@
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "deploy-storybook": "storybook-to-ghpages",
-    "precommit": "lint-staged",
-    "lint-staged": {
-      "src/**/*.js": [
-        "prettier --print-width 120 --no-semi --single-quote --write",
-        "git add"
-      ]
-    }
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --print-width 120 --no-semi --single-quote --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
