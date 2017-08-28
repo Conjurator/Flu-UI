@@ -12,7 +12,14 @@
     "prepublish": "npm run build",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --print-width 120 --no-semi --single-quote --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -53,7 +60,10 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.2.0",
     "fs-extra": "^4.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.4",
     "node-sass": "^4.5.3",
+    "prettier": "^1.5.3",
     "prop-types": "^15.5.10",
     "rc-dialog": "^6.5.10",
     "rc-notification": "^2.0.5",
