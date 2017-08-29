@@ -7,7 +7,8 @@ import Select from './components/Select'
 import Steps from './components/Steps'
 import Uploader from './components/Uploader'
 import NavList from './components/NavList'
+import Carousel from './components/Carousel'
 
 import * as svgs from './svgs.js'
 
-export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Uploader, NavList }
+export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Uploader, NavList, Carousel }
