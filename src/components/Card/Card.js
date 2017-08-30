@@ -18,7 +18,7 @@ class Card extends Component {
           })}
         >
           {children}
-        </div>F
+        </div>
       </div>
     )
   }

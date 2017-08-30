@@ -4,9 +4,8 @@
   "description": "simple ui for media",
   "main": "lib/index.js",
   "scripts": {
-    "build": "npm run svg && npm run compile && npm run style",
+    "build": "npm run svg && npm run compile",
     "compile": "BABEL_ENV=production node_modules/.bin/babel --out-dir='lib' --ignore='__tests__/*' src",
-    "style": "node scripts/style.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "svg": "node scripts/svg.js",
     "prepublish": "npm run build",
