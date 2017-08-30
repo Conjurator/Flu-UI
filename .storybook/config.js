@@ -5,7 +5,7 @@ import './storybook.scss'
 
 function loadStories() {
   //使用require.context()创建自定义上下文，不用每次添加stories都需要更改配置
-  const req = require.context('../stories', true, /\.js$/);
+  const req = require.context('../stories', true, /\.js$/)
   req.keys().forEach(fileName => req(fileName))
 }
 
