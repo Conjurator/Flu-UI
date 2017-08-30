@@ -2,10 +2,10 @@ import React from 'react'
 import Notification from 'rc-notification'
 import './Message.scss'
 import OKBig from '../../../svgicons/OKBig.svg'
-import exclaimPurple from '../../../svgicons/exclaimPurple.svg'
-import exclaimRed from '../../../svgicons/exclaimRed.svg'
-import loading from '../../../svgicons/loading.svg'
-import info from '../../../svgicons/info.svg'
+import ExclaimPurple from '../../../svgicons/exclaimPurple.svg'
+import ExclaimRed from '../../../svgicons/exclaimRed.svg'
+import Loading from '../../../svgicons/loading.svg'
+import Info from '../../../svgicons/info.svg'
 
 let defaultDuration = 1.5
 let defaultTop
@@ -25,12 +25,13 @@ function getMessageInstance() {
 }
 
 function notice(content, duration = defaultDuration, type, onClose) {
+  //console.log(info);
   let iconType = {
-    info: info,
-    success: OKBig,
-    error: exclaimRed,
-    warning: exclaimPurple,
-    loading: loading
+    info: <Info />,
+    success: <OKBig />,
+    error: <ExclaimRed />,
+    warning: <ExclaimPurple />,
+    loading: <Loading />
   }[type]
 
   let instance = getMessageInstance()
@@ -40,7 +41,7 @@ function notice(content, duration = defaultDuration, type, onClose) {
     style: {},
     content: (
       <div className={`${prefixCls}-custom-content ${prefixCls}-${type}`}>
-        <img src={iconType} alt="" />
+        {iconType}
         <span>
           {content}
         </span>
