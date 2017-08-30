@@ -1,12 +1,14 @@
-import Button from './components/Button/index'
-import Message from './components/Message/index'
-import Input from './components/Input/index'
-import Modal from './components/Modal/index'
-import Paginate from './components/Paginate/index'
-import Select from './components/Select/index'
-import Steps from './components/Steps/index'
-import Uploader from './components/Uploader/index'
+import Button from './components/Button'
+import Message from './components/Message'
+import Input from './components/Input'
+import Modal from './components/Modal'
+import Paginate from './components/Paginate'
+import Select from './components/Select'
+import Steps from './components/Steps'
+import Uploader from './components/Uploader'
+import NavList from './components/NavList'
+import Carousel from './components/Carousel'
 
 import * as svgs from './svgs.js'
 
-export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Uploader }
+export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Uploader, NavList, Carousel }
