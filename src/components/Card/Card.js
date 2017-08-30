@@ -11,17 +11,14 @@ class Card extends Component {
     const { wrapClass, children, width, height, title } = this.props
     return (
       <div className={ClassNames('fluui-card', wrapClass)} style={{ width, height }}>
-        {title &&
-          <div className="fluui-card-title">
-            {title}
-          </div>}
+        {title && <div className="fluui-card-title">{title}</div>}
         <div
           className={ClassNames('fluui-card-content', {
             'with-title': title
           })}
         >
           {children}
-        </div>
+        </div>F
       </div>
     )
   }

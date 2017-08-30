@@ -8,12 +8,21 @@ let svgList = []
 
 req.keys().forEach(fileName => {
   let svg = req(fileName)
-  svgList.push(svg.default)
+  let name = fileName.slice(2).replace('.svg', '')
+  svgList.push({
+    tag: svg.default,
+    name
+  })
 })
 
-storiesOf('Svgs', module)
-  .add('svgs', () => <div className='svg-box'>
-    {
-      svgList.map((Svg, index) => <Svg key={index} />)
-    }
-  </div>)
+storiesOf('Svgs', module).add('svgs', () => (
+  <div className="box">
+    {svgList.map((svg, index) => {
+      let Tag = svg.tag
+      return <div className="svg-container" key={index}>
+        <div className="title">{svg.name}</div>
+        <Tag />
+      </div>
+    })}
+  </div>
+))

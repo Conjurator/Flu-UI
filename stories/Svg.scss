@@ -1,8 +1,11 @@
-.svg-box{
+.box{
   width: 100%;
   height: 100%;
-  svg{
+  .svg-container{
     display: inline-block;
+    padding: 10px;
+  }
+  svg{
     margin: 10px;
   }
 }
