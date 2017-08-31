@@ -15,21 +15,13 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.js": [
-      "prettier --print-width 120 --no-semi --single-quote --write",
-      "eslint",
-      "git add"
-    ]
+    "src/**/*.js": ["prettier --print-width 120 --no-semi --single-quote --write", "eslint", "git add"]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/369857519/Flu-UI.git"
   },
-  "keywords": [
-    "react",
-    "icon",
-    "UI"
-  ],
+  "keywords": ["react", "icon", "UI"],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -39,6 +31,14 @@
   "peerDependencies": {
     "react": ">=15.4.0",
     "react-dom": ">=15.4.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-svg-loader": "^1.1.1",
+    "prop-types": "^15.5.10",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.6",
@@ -67,17 +67,11 @@
     "moment": "^2.18.1",
     "node-sass": "^4.5.3",
     "prettier": "^1.5.3",
-    "prop-types": "^15.5.10",
     "rc-dialog": "^6.5.10",
     "rc-notification": "^2.0.5",
     "rc-util": "^4.0.4",
-    "react": "^15.6.1",
     "react-addons-shallow-compare": "^15.6.0",
     "react-dates": "^12.5.0",
-    "react-dom": "^15.6.1",
-    "react-select": "^1.0.0-rc.5",
-    "react-svg-loader": "^1.1.1",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2"
+    "react-select": "^1.0.0-rc.5"
   }
 }
