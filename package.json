@@ -1,6 +1,6 @@
 {
   "name": "fluui",
-  "version": "1.1.15",
+  "version": "1.1.17",
   "description": "simple ui for media",
   "main": "lib/index.js",
   "scripts": {
@@ -15,13 +15,21 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.js": ["prettier --print-width 120 --no-semi --single-quote --write", "eslint", "git add"]
+    "src/**/*.js": [
+      "prettier --print-width 120 --no-semi --single-quote --write",
+      "eslint",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/369857519/Flu-UI.git"
   },
-  "keywords": ["react", "icon", "UI"],
+  "keywords": [
+    "react",
+    "icon",
+    "UI"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -61,6 +69,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.2.0",
     "file": "^0.2.2",
+    "file-loader": "^0.11.2",
     "fs-extra": "^4.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.4",
@@ -72,6 +81,7 @@
     "rc-util": "^4.0.4",
     "react-addons-shallow-compare": "^15.6.0",
     "react-dates": "^12.5.0",
-    "react-select": "^1.0.0-rc.5"
+    "react-select": "^1.0.0-rc.5",
+    "url-loader": "^0.5.9"
   }
 }

@@ -1,33 +1,41 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader']
-      },
-      
-      {
-        test: /\.svg$/,
-        use: [
+        oneOf: [
           {
-            loader: 'babel-loader',
-            query: {
-              presets: ['airbnb'],
-            },
+            test: /\.scss$/,
+            use: ['style-loader', 'css-loader', 'sass-loader']
           },
           {
-            loader: 'react-svg-loader',
-            query: {
-              jsx: true,
-            },
+            test: /\.(png|jpg|gif|svg)$/,
+            use: [
+              {
+                loader: 'url-loader',
+                options: {
+                  limit: 8192
+                },
+                include: path.resolve(__dirname, '../')
+              }
+            ]
           },
-        ],
-      },
-    ],
+          {
+            exclude: [/\.js$/, /\.html$/, /\.json$/],
+            use: [
+              {
+                loader: 'file-loader',
+                options: {},
+                include: path.resolve(__dirname, '../')
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
-  },
-};
+    extensions: ['.js', '.jsx']
+  }
+}

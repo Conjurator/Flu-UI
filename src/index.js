@@ -9,7 +9,8 @@ import Uploader from './components/Uploader'
 import NavList from './components/NavList'
 import Carousel from './components/Carousel'
 import Dates from './components/Dates'
+import Card from './components/Card'
 
 import * as svgs from './svgs.js'
 
-export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Uploader, NavList, Carousel, Dates }
+export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps }

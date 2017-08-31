@@ -37,7 +37,7 @@ class Step extends Component {
             noBorder: stepType === 'checkmark'
           })}
         >
-          {stepType === 'checkmark' ? <Svg /> : index + 1}
+          {stepType === 'checkmark' ? <img src={Svg} alt="" /> : index + 1}
         </div>
         <div className="xk-step-label">{label}</div>
         <div className="xk-step-tail">••••••••••••••</div>
