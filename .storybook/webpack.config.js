@@ -16,8 +16,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                   limit: 8192
-                },
-                include: path.resolve(__dirname, '../')
+                }
               }
             ]
           },
@@ -26,8 +25,7 @@ module.exports = {
             use: [
               {
                 loader: 'file-loader',
-                options: {},
-                include: path.resolve(__dirname, '../')
+                options: {}
               }
             ]
           }
