@@ -1,115 +1,115 @@
 //公共引入
-@import "../../component.scss";
+@import '../../component.scss';
 //Modal遮罩层
 .xiangkan-modal-mask {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #373737;
-    background-color: rgba(55, 55, 55, 0.6);
-    height: 100%;
-    z-index: 100000;
-    filter: alpha(opacity=50);
-    &-hidden {
-        display: none;
-    }
-    &-open {
-        display: none;
-    }
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #373737;
+  background-color: rgba(55, 55, 55, 0.6);
+  height: 100%;
+  z-index: 100000;
+  filter: alpha(opacity=50);
+  &-hidden {
+    display: none;
+  }
+  &-open {
+    display: none;
+  }
 }
 
 .xiangkan-modal-wrap {
-    position: fixed;
-    overflow: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999999;
-    -webkit-overflow-scrolling: touch;
-    outline: 0;
-    .xiangkan-modal {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  .xiangkan-modal {
+    position: absolute;
+    width: auto;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 1.8rem;
+    .xiangkan-modal-content {
+      position: relative;
+      background-color: #fff;
+      border: 0;
+      border-radius: 3px;
+      background-clip: padding-box;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      .xiangkan-modal-close {
+        cursor: pointer;
+        background: transparent;
         position: absolute;
-        width: auto;
-        margin: 0 auto;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding-bottom: 1.8rem;
-        .xiangkan-modal-content {
-            position: relative;
-            background-color: #fff;
-            border: 0;
-            border-radius: 3px;
-            background-clip: padding-box;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-            .xiangkan-modal-close {
-                cursor: pointer;
-                background: transparent;
-                position: absolute;
-                right: -5px;
-                top: 2px;
-                z-index: 10;
-                color: rgba(0, 0, 0, 0.43);
-                .xiangkan-modal-close-x {
-                    vertical-align: middle;
-                    display: inline-block;
-                    width: 14px;
-                    height: 14px;
-                    background: url(../../../svgicons/close.svg)
-                }
-                &:focus,
-                &:hover {
-                    color: #444;
-                    text-decoration: none;
-                }
-            }
-            .xiangkan-modal-header {
-                border-radius: 3px 3px 0 0;
-                background: #fff;
-                text-align: center;
-                padding-top: 40px;
-                .modal-icon {
-                    width: 40px;
-                    height: 40px;
-                    margin-bottom: 17px;
-                }
-                .modal-title{
-                    font-size: 20px;
-                    line-height: 20px;
-                    text-align: center;
-                }
-            }
-            .xiangkan-modal-body {
-                font-size: 14px;
-                line-height: 28px;
-                color: #2f3639;
-                text-align: center;
-            }
-            .xiangkan-modal-footer {
-                padding: 19px 49px 39px;
-                text-align: center;
-                border-radius: 0 0 3px 3px;
-                span {
-                    margin: 0 -1% 0 8%;
-                }
-                button + button {
-                    margin-left: 2rem;
-                    margin-bottom: 0;
-                }
-            }
+        right: -5px;
+        top: 2px;
+        z-index: 10;
+        color: rgba(0, 0, 0, 0.43);
+        .xiangkan-modal-close-x {
+          vertical-align: middle;
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          background: url(../../../svgicons/close.svg);
         }
+        &:focus,
+        &:hover {
+          color: #444;
+          text-decoration: none;
+        }
+      }
+      .xiangkan-modal-header {
+        border-radius: 3px 3px 0 0;
+        background: #fff;
+        text-align: center;
+        padding-top: 40px;
+        .modal-icon {
+          width: 40px;
+          height: 40px;
+          margin-bottom: 17px;
+        }
+        .modal-title {
+          font-size: 20px;
+          line-height: 20px;
+          text-align: center;
+        }
+      }
+      .xiangkan-modal-body {
+        font-size: 14px;
+        line-height: 28px;
+        color: #2f3639;
+        text-align: center;
+      }
+      .xiangkan-modal-footer {
+        padding: 19px 49px 39px;
+        text-align: center;
+        border-radius: 0 0 3px 3px;
+        span {
+          margin: 0 -1% 0 8%;
+        }
+        button + button {
+          margin-left: 2rem;
+          margin-bottom: 0;
+        }
+      }
     }
+  }
 }
 
 .close-icon {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    background: url(../../../svgicons/close.svg) center center no-repeat;
-    right: 10px;
-    top: 10px;
-    cursor: pointer;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: url(../../../svgicons/close.svg) center center no-repeat;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
 }

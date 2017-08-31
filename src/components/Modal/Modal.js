@@ -73,27 +73,24 @@ export default class Modal extends PureComponent {
 
     let iconNode
     if (typeOfIcon === 'string') {
-      iconNode = <img src={icon} className="modal-icon" />
+      iconNode = <img src={icon} className="modal-icon" alt="" />
     } else {
       iconNode = icon
     }
     return (
       <div className="modal-header">
         {icon ? iconNode : ''}
-        {title &&
-          <div className="modal-title">
-            {title}
-          </div>}
+        {title && <div className="modal-title">{title}</div>}
       </div>
     )
   }
   render() {
     let { okText, cancelText, footer, visible } = this.props
     const defaultFooter = [
-      <Button size="default" onClick={this.handleOnCancel}>
+      <Button size="default" onClick={this.handleOnCancel} key="1">
         {cancelText || '取消'}
       </Button>,
-      <Button type="primary" size="default" onClick={this.handleOnTrue}>
+      <Button type="primary" size="default" onClick={this.handleOnTrue} key="2">
         {okText || '确定'}
       </Button>
     ]
