@@ -13,4 +13,4 @@ import Card from './components/Card'
 
 import * as svgs from './svgs.js'
 
-export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps }
+export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Dates }

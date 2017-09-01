@@ -28,7 +28,7 @@ class Step extends Component {
   render() {
     let { label, stepType, index } = this.props
     let status = this.getStatus()
-    let Svg = svgMap[status]
+    let svg = svgMap[status]
 
     return (
       <div className={`xk-step xk-${status}`}>
@@ -37,7 +37,7 @@ class Step extends Component {
             noBorder: stepType === 'checkmark'
           })}
         >
-          {stepType === 'checkmark' ? <img src={Svg} alt="" /> : index + 1}
+          {stepType === 'checkmark' ? <img src={svg} alt="" /> : index + 1}
         </div>
         <div className="xk-step-label">{label}</div>
         <div className="xk-step-tail">••••••••••••••</div>
