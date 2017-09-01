@@ -2,15 +2,10 @@
  * @version 1.0 | 2017-2-20  Created by perkin // Initial version.
  * @version 1.1 | 2017-3-23  // change pageSize and Render willProps
  */
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import './Carousel.scss'
 import classNames from 'classnames'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import { browserHistory } from 'react-router'
-
-const style = {
-  numberError: {}
-}
 
 export class Carousel extends Component {
   constructor(props) {
@@ -74,7 +69,6 @@ export class Carousel extends Component {
 
   render() {
     const { imagesSrc, active } = this.state
-    // if(!imagesSrc||imagesSrc.length==0)return <div></div>;
     return (
       <div
         ref="carouselRoot"
@@ -92,8 +86,8 @@ export class Carousel extends Component {
       >
         {imagesSrc.map((value, index) => {
           return (
-            <div key={index} className={classNames({ singleImg: true, active: active == index })}>
-              <img src={value.url} onClick={this.gotoUrl} />
+            <div key={index} className={classNames({ singleImg: true, active: active === index })}>
+              <img src={value.url} onClick={this.gotoUrl} alt="" />
             </div>
           )
         })}
@@ -106,7 +100,7 @@ export class Carousel extends Component {
                     active: index
                   })
                 }}
-                className={classNames({ indexBlock: true, active: active == index })}
+                className={classNames({ indexBlock: true, active: active === index })}
                 key={index}
               />
             )

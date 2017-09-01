@@ -122,33 +122,35 @@ export class Paginate extends PureComponent {
     const pageNumCount = Math.ceil(this.props.total / this.state.pageSize)
     return (
       <div className="paginate">
-        {!simple
-          ? <span>
-              <span>
-                共计{pageNumCount}页 / <label>{this.props.total}</label>条总数据&nbsp;&nbsp;
-              </span>
-              <span>每页展示</span>
-              <div className="paginate-select">
-                <select
-                  value={this.state.pageSize}
-                  onChange={this.selectPageSize}
-                  ref="selectSize"
-                  name="pageSize"
-                  className="pageSize"
-                >
-                  <option value="3">3</option>
-                  <option value="5">5</option>
-                  <option value="10">10</option>
-                  <option value="15">15</option>
-                </select>
-                {/*
+        {!simple ? (
+          <span>
+            <span>
+              共计{pageNumCount}页 / <label>{this.props.total}</label>条总数据&nbsp;&nbsp;
+            </span>
+            <span>每页展示</span>
+            <div className="paginate-select">
+              <select
+                value={this.state.pageSize}
+                onChange={this.selectPageSize}
+                ref="selectSize"
+                name="pageSize"
+                className="pageSize"
+              >
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+              </select>
+              {/*
             			    <i className="muicon muicon-select" onClick={this.selectOpen.bind(this)}></i>
             			*/}
-              </div>
-              <span>个</span>
-              <span>|</span>
-            </span>
-          : ''}
+            </div>
+            <span>个</span>
+            <span>|</span>
+          </span>
+        ) : (
+          ''
+        )}
 
         {/*prev left icon*/}
         <button
@@ -166,7 +168,7 @@ export class Paginate extends PureComponent {
             })
           }}
         >
-          <img src={leftIcon} />
+          <img src={leftIcon} alt="" />
         </button>
         {/*
                     方式一：props
@@ -192,7 +194,7 @@ export class Paginate extends PureComponent {
             })
           }}
         >
-          <img src={rightIcon} />
+          <img src={rightIcon} alt="" />
         </button>
         <input
           style={this.state.numberError ? style.numberError : {}}

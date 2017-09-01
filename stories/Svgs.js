@@ -21,6 +21,7 @@ storiesOf('Svgs', module).add('svgs', () => (
       return <div className="svg-container" key={index}>
         <div className="title">{svg.name}</div>
         <img src={svg.src} alt=""/>
+        img
       </div>
     })}
   </div>
