@@ -18,8 +18,8 @@ $react-dates-color-primary-shade-4: #a16eff;
 $react-dates-color-text: $xk-date-color-text;
 $react-dates-color-text-focus: #fff;
 
-@import '../../../node_modules/react-dates/css/variables.scss';
-@import '../../../node_modules/react-dates/css/styles.scss';
+@import '~react-dates/css/variables.scss';
+@import '~react-dates/css/styles.scss';
 
 .DateRangePicker {
     position: relative;
