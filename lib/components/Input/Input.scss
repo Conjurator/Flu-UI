@@ -1,0 +1,65 @@
+.fluui_controls {
+    vertical-align: top;
+    width: 390px;
+    position: relative;
+    background: #fff;
+    .Select-control {
+        border-radius: 3px;
+        border-color: #dde3ec;
+    }
+    .xk_text_box {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        border: 1px solid #dde3ec;
+        border-radius: 3px;
+        .xk_input {
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            border: 0;
+            outline: 0;
+            &.xk_input_readonly{
+                color: #929292;
+            }
+        }
+    }
+    .xk_input_box {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 8.4px;
+    }
+    .xk_input_box_disable {
+        background: #eee;
+        input {
+            cursor: no-drop;
+        }
+    }
+    .xk_textarea_box{
+        height: 80px;
+        line-height: 40px;
+        padding-left: 10px;
+    }
+    .xk_input_tip {
+        font-size: 13px;
+        line-height: 40px;
+        position: absolute;
+        bottom: 22%;
+        right: 3%;
+    }
+    .xk_info {
+        color: #9b9b9b;
+        font-size: 13px;
+        line-height: 1;
+        margin-top: 10px;
+        min-width: 420px;
+        width: 100%;
+    }
+    .xk_textarea{
+        line-height:40px;
+        height: 100%;
+        width: 100%;
+        border:none;
+    }
+}

@@ -14,7 +14,7 @@ import trash from '../../../svgicons/trash.svg'
 import './Uploader.scss'
 //模态层组件
 import Modal from '../Modal/Modal'
-//
+
 const styles = {
   viewIdAvDialog: {
     width: '100%',
@@ -96,20 +96,17 @@ export class Uploader extends Component {
   render() {
     return (
       <div>
-        {this.state.imgView &&
+        {this.state.imgView && (
           <div className="thumbs-box">
-            <a href="javascript:;">
-              <img src={this.state.imgView} />
+            <a>
+              <img src={this.state.imgView} alt="" />
             </a>
             <span className="icons-box">
-              <img
-                src={enlarge}
-                alt="预览大图"
-                onTouchTap={this.handleImgOpenModal}
-              />
-              <img src={trash} alt="删除图片" onTouchTap={this.handleImgDelete} />
+              <img src={enlarge} alt="预览大图" onClick={this.handleImgOpenModal} />
+              <img src={trash} alt="删除图片" onClick={this.handleImgDelete} />
             </span>
-          </div>}
+          </div>
+        )}
         <div className="xk_uploader">
           <span className="xk_upload_box">
             <input
@@ -133,7 +130,7 @@ export class Uploader extends Component {
           wrapClassName="vertical-center-modal"
           footer={[]}
         >
-          <img src={this.state.imgView} style={styles.viewIdAvDialog} />
+          <img src={this.state.imgView} style={styles.viewIdAvDialog} alt="" />
         </Modal>
       </div>
     )

@@ -12,6 +12,6 @@ import Dates from './components/Dates'
 import Card from './components/Card'
 import * as svgs from './svgs.js'
 
-export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Card }
+export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Card, Uploader, NavList }
 
 export const { DateRangePicker, SingleDatePicker, DayPickerRangeController } = Dates
