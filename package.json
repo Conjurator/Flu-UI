@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "npm run compile && npm run style",
-    "compile": "BABEL_ENV=production node_modules/.bin/babel --out-dir='lib' --ignore='__tests__/*' src",
+    "compile": "cross-env BABEL_ENV=production node_modules/.bin/babel --out-dir lib --ignore='__tests__/*' src",
     "style": "node scripts/style.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
@@ -61,6 +61,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.24.1",
     "classnames": "^2.2.5",
+    "cross-env": "^5.0.5",
     "css-loader": "^0.28.5",
     "eslint": "^4.4.1",
     "eslint-config-react-app": "^2.0.0",
