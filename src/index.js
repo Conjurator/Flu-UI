@@ -10,7 +10,8 @@ import NavList from './components/NavList'
 import Carousel from './components/Carousel'
 import Dates from './components/Dates'
 import Card from './components/Card'
-
 import * as svgs from './svgs.js'
 
-export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Dates }
+export { svgs, Button, Message, Input, Modal, Paginate, Select, Steps, Card }
+
+export const { DateRangePicker, SingleDatePicker, DayPickerRangeController } = Dates
