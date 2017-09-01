@@ -27,11 +27,11 @@ function getMessageInstance() {
 function notice(content, duration = defaultDuration, type, onClose) {
   //console.log(info);
   let iconType = {
-    info: <Info />,
-    success: <OKBig />,
-    error: <ExclaimRed />,
-    warning: <ExclaimPurple />,
-    loading: <Loading />
+    info: Info,
+    success: OKBig,
+    error: ExclaimRed,
+    warning: ExclaimPurple,
+    loading: Loading
   }[type]
 
   let instance = getMessageInstance()
@@ -41,10 +41,8 @@ function notice(content, duration = defaultDuration, type, onClose) {
     style: {},
     content: (
       <div className={`${prefixCls}-custom-content ${prefixCls}-${type}`}>
-        {iconType}
-        <span>
-          {content}
-        </span>
+        <img src={iconType} alt="" />
+        <span>{content}</span>
       </div>
     ),
     onClose
