@@ -5,7 +5,6 @@
 import React, { Component } from 'react'
 import './Carousel.scss'
 import classNames from 'classnames'
-import { browserHistory } from 'react-router'
 
 export class Carousel extends Component {
   constructor(props) {
@@ -58,8 +57,8 @@ export class Carousel extends Component {
     })
   }
 
-  gotoUrl = () => {
-    browserHistory.push(this.props.imagesSrc[this.state.active].href)
+  clickHandler = () => {
+    this.props.onClick(this.state.active)
   }
 
   componentWillUnmount() {
@@ -87,7 +86,7 @@ export class Carousel extends Component {
         {imagesSrc.map((value, index) => {
           return (
             <div key={index} className={classNames({ singleImg: true, active: active === index })}>
-              <img src={value.url} onClick={this.gotoUrl} alt="" />
+              <img src={value.url} onClick={this.clickHandler} alt="" />
             </div>
           )
         })}
