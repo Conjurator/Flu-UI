@@ -19,8 +19,7 @@ export default class Input extends Component {
   }
   static defaultProps = {
     disabled: false,
-    prefix: 'fluui',
-    ref: 'input'
+    prefix: 'fluui'
   }
   static propTypes = {
     id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
