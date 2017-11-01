@@ -1,0 +1,33 @@
+.cover-container{
+  height: 100%;
+  // background: linear-gradient(#7e00ff, #5650f4);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  .cover-title{
+    margin: 0;
+  }
+  .cover-link{
+    margin-top: 15px;
+    a{
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 4px;
+      width: 110px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      text-decoration: none;
+      margin: 0 5px;
+      box-shadow: 0 0 10px -3px #666;
+      transition: box-shadow .8s;
+    }
+  }
+  .cover-desc{
+    margin-top: 15px;
+    color: #999;
+    text-align: center;
+  }
+}
