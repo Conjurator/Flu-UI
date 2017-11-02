@@ -5,8 +5,6 @@ import '../static/Layout.scss'
 
 export default function Layout(props) {
   const {location} = props
-  console.log(props)
-
   return (
     <div className="wrapper">
       <Header location={location} />

@@ -1,8 +1,13 @@
 module.exports = {
   port: 8001,
-  output: './_site',
+  lazyLoad: false,
   theme: './site/theme',
-  source: './src',
+  // source: ['./src/components', './doc', 'CHANGELOG.md'],
+  source: {
+    components: './src/components',
+    doc: './doc',
+    changelog: 'CHANGELOG.md'
+  },
   plugins: ['bisheng-plugin-react?lang=__react'],
   webpackConfig(config) {
     config.module.rules = config.module.rules.concat([

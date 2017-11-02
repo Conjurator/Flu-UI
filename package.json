@@ -13,8 +13,8 @@
     "build-storybook": "build-storybook -c .storybook -o .out",
     "deploy-storybook": "storybook-to-ghpages",
     "precommit": "lint-staged",
-    "bisheng": "cross-env NODE_ENV=development bisheng start -c ./site/bisheng.config.js",
-    "site": "cross-env NODE_ENV=production bisheng build -c ./site/bisheng.config.js"
+    "site-dev": "cross-env NODE_ENV=development bisheng start -c ./site/bisheng.config.js",
+    "site-build": "cross-env NODE_ENV=production bisheng build -c ./site/bisheng.config.js"
   },
   "lint-staged": {
     "src/**/*.js": [
