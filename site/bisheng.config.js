@@ -1,3 +1,5 @@
+
+
 module.exports = {
   port: 8001,
   lazyLoad: false,
@@ -8,6 +10,7 @@ module.exports = {
     doc: './doc',
     changelog: 'CHANGELOG.md'
   },
+  root: '/Flu-UI/',
   plugins: ['bisheng-plugin-react?lang=__react'],
   //webpack config,可在此覆盖默认配置
   webpackConfig(config) {
