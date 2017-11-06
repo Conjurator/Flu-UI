@@ -23,6 +23,6 @@ a{
     background: #fff;
     border-radius: 4px;
     min-width: 1100px;
-    min-height: 700px;
+    min-height: calc(100% - 192px);
   }
 }
