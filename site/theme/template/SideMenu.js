@@ -5,7 +5,6 @@ import '../static/SideMenu.scss'
 
 export default function SideMenu({ data, type, params }) {
   const menuList = Object.keys(data[type])
-  console.log(data, type, params)
   return (
     <ul className="side-menu">
       {menuList.map(item => (
