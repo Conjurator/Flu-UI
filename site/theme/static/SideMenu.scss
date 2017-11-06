@@ -1,0 +1,33 @@
+.side-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+  border-left: 1px solid #838383;
+  li {
+    width: 164px;
+    height: 46px;
+    line-height: 46px;
+    cursor: pointer;
+    a {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+      padding-left: 22px;
+      color: #9b9b9b;
+      &:hover {
+        color: #3ecdad;
+      }
+    }
+    &.active {
+      border-left: 3px solid #38dfb9;
+      position: relative;
+      left: -1px;
+      a {
+        padding-left: 20px;
+        color: #3ecdad;
+      }
+    }
+  }
+}

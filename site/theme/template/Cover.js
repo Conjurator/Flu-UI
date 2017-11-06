@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router'
-import cover from '../static/image/cover.jpg'
 import '../static/Cover.scss'
 
 class Cover extends Component {

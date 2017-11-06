@@ -19,7 +19,7 @@ module.exports = {
           component: './template/Doc'
         },
         {
-          path: 'components/:component',
+          path: 'components/:components',
           component: './template/Components'
         }
       ]

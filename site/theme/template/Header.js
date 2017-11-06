@@ -25,7 +25,7 @@ export default function Header(props) {
             active: path.includes('/components')
           })}
         >
-          <Link to="/layout/components/about">组件</Link>
+          <Link to="/layout/components/Button">组件</Link>
         </li>
       </ul>
     </header>
