@@ -7,7 +7,7 @@ export default function Content(props) {
   const title = pageData.meta.title
   return <div className="content">
     <h1>{title}</h1>
-    <div className="md">
+    <div id="wrapper">
       {props.utils.toReactComponent(content)}
     </div>
   </div>
