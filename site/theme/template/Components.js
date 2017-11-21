@@ -5,13 +5,11 @@ import '../static/Components.scss'
 
 export default function Components(props) {
   const {pageData, utils = props} = props
-  console.log(props)
-  
   return (
     <div className="components">
       <SideMenu data={props.data} type="components" params={props.params} />
       <div className="component-container">
-        <Content pageData={pageData} utils={utils} ></Content> 
+        <Content pageData={pageData} utils={utils} ></Content>
       </div>
     </div>
   )
