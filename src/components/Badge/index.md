@@ -7,7 +7,7 @@ title: Badge
 
 ## 示例
 
-```js
+```jsx
 import {Badge} from 'fluui'
 ReactDOM.render(
   <div clasName={box}>
@@ -22,9 +22,6 @@ ReactDOM.render(
 ```
 
 ## API
-```js
-<Badge count={11} />
-```
 
 | 属性 | 说明 | 类型 | 可选值 | 默认值 |
 | --- | --- | ---| --- | --- |

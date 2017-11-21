@@ -19,5 +19,4 @@ ReactDOM.render(
   <Button>默认按钮</Button>,
   document.getElementById('root')
 )
-
 ```

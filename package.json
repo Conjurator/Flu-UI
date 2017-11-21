@@ -68,7 +68,6 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.24.1",
     "bisheng": "^0.27.6",
-    "bisheng-plugin-react": "^0.6.3",
     "classnames": "^2.2.5",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.5",
