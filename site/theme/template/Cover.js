@@ -27,7 +27,7 @@ class Cover extends Component {
           <Link className="link-start" to="/layout/doc/start">Start</Link>
         </div>
         <div className="cover-desc">
-          基于React的一套UI组件
+          基于React的UI组件
         </div>
       </div>
     )

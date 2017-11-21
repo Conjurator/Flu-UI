@@ -4,7 +4,7 @@ import Content from "./Content";
 import '../static/Components.scss'
 
 export default function Components(props) {
-  const {pageData, utils = props} = props
+  const {pageData, utils} = props
   return (
     <div className="components">
       <SideMenu data={props.data} type="components" params={props.params} />
