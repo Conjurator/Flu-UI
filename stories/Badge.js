@@ -1,6 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import Badge from '../src/components/Badge/Badge'
+import { withDocs } from "storybook-readme";
 import BadgeDoc from '../src/components/Badge/index.md'
 
 const BadgeBox = props => (
@@ -18,6 +19,7 @@ const BadgeBox = props => (
 )
 
 storiesOf('Badge', module)
+  .addDecorator(withDocs(BadgeDoc))
   .add('default', () => (
     <BadgeBox>
       <Badge count={5} />

@@ -1,9 +1,12 @@
----
-category: Components
-title: Badge
----
-
+# Badge
 右上角红色提示数字，多用来标示未读消息
+
+## 使用
+```js
+import {Badge} from 'fluui'
+```
+
+<!-- STORY -->
 
 ## 示例
 
