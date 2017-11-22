@@ -20,7 +20,6 @@ function App() {
 }
 ReactDOM.render(<App />, document.querySelector('#root'))
 ```
-## Example
 ## Documentation
 Checkout our [storybook site](https://conjurator.github.io/Flu-UI/)
 ## Development
