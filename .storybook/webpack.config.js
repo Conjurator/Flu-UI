@@ -21,6 +21,10 @@ module.exports = {
             ]
           },
           {
+            test: /\.md$/,
+            use: 'raw-loader'
+          },
+          {
             exclude: [/\.js$/, /\.html$/, /\.json$/],
             use: [
               {

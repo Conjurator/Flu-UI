@@ -1,14 +1,17 @@
----
-category: Components
-title: Badge
----
-
+# Badge
 右上角红色提示数字，多用来标示未读消息
+
+## 使用
+```js
+import { Badge } from 'fluui'
+```
+
+<!-- STORY -->
 
 ## 示例
 
-```js
-import {Badge} from 'fluui'
+```jsx
+import { Badge } from 'fluui'
 ReactDOM.render(
   <div clasName={box}>
     <div className='eg1'>
@@ -22,9 +25,6 @@ ReactDOM.render(
 ```
 
 ## API
-```js
-<Badge count={11} />
-```
 
 | 属性 | 说明 | 类型 | 可选值 | 默认值 |
 | --- | --- | ---| --- | --- |

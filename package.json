@@ -58,9 +58,11 @@
     "node-sass": "^4.5.3"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.6",
-    "@storybook/addon-links": "^3.2.6",
-    "@storybook/react": "^3.2.6",
+    "@storybook/addon-actions": "^3.2.16",
+    "@storybook/addon-info": "^3.2.16",
+    "@storybook/addon-links": "^3.2.16",
+    "@storybook/addon-options": "^3.2.16",
+    "@storybook/react": "^3.2.16",
     "@storybook/storybook-deployer": "^2.0.0",
     "babel-cli": "^6.6.5",
     "babel-eslint": "^8.0.1",
@@ -68,7 +70,6 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.24.1",
     "bisheng": "^0.27.6",
-    "bisheng-plugin-react": "^0.6.3",
     "classnames": "^2.2.5",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.5",
@@ -84,8 +85,10 @@
     "husky": "^0.14.3",
     "lint-staged": "^4.0.4",
     "prettier": "^1.5.3",
+    "raw-loader": "^0.5.1",
     "rc-util": "^4.0.4",
     "react-addons-shallow-compare": "^15.6.0",
+    "storybook-readme": "^3.1.1",
     "url-loader": "^0.5.9"
   }
 }

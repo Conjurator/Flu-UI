@@ -1,14 +1,35 @@
-# [Flu-UI](https://Conjurator.github.io/Flu-UI/)
+# Flu-UI
+Flu-UI is a React-based UI components for the web.
+## Installation
+Flu-UI is available on npm
+```bash
+npm install fluui
+```
+## Usage
+Here is a simple example.
+```jsx
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Button } from 'fluui'
+function App() {
+  return (
+    <Button>
+      hello world!
+    </Button>
+  )
+}
+ReactDOM.render(<App />, document.querySelector('#root'))
+```
+## Example
+## Documentation
+Checkout our [storybook site](https://conjurator.github.io/Flu-UI/)
+## Development
+```bash
+git clone git@github.com:Conjurator/Flu-UI.git
+cd Flu-UI
+npm install
+npm run storybook
+```
+## Contributing
+We appreciate any issue or pr you make.
 
-## TODO
-- [ ] 官网
-   - [ ] markdown渲染
-   - [ ] footer
-   - [ ] 404处理
-- [ ] 预先编译scss，不需要引入fluui再处理
-- [ ] 集成单元测试
-- [ ] 优化部署流程
-   - [ ] master更新，则自动添加changelog
-   - [ ] master更新，自动部署到npm
-## BUG
-- [x] 左侧导航菜单子菜单项左边距不正确
