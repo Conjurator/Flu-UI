@@ -3,7 +3,7 @@
 
 ## 使用
 ```js
-import {Badge} from 'fluui'
+import { Badge } from 'fluui'
 ```
 
 <!-- STORY -->
@@ -11,7 +11,7 @@ import {Badge} from 'fluui'
 ## 示例
 
 ```jsx
-import {Badge} from 'fluui'
+import { Badge } from 'fluui'
 ReactDOM.render(
   <div clasName={box}>
     <div className='eg1'>
