@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
 
-import { configure } from '@storybook/react'
+import { configure, setAddon } from '@storybook/react'
 import './storybook.scss'
 
 function loadStories() {
