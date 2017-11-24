@@ -1,10 +1,16 @@
+---
+category: Components
+title: Button
+order: 3
+---
+
 # Button
 操作按钮
 ## 使用
 ```js
 import { Button } from 'fluui'
 ```
-<!-- STORY -->
+
 ## 示例
 ```jsx
 import { Button } from 'fluui'
