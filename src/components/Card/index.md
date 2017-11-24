@@ -6,7 +6,7 @@
 import { Card } from 'fluui'
 ```
 
-<!-- STORY -->
+
 
 ## 示例
 
