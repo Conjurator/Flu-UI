@@ -5,7 +5,6 @@ import '../static/Components.scss'
 
 export default function Components(props) {
   const {pageData, utils} = props
-  console.log(props)
   return (
     <div className="components">
       <SideMenu data={props.data} type="components" params={props.params} />

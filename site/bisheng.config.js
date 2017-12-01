@@ -7,9 +7,14 @@ module.exports = {
     doc: ['CHANGELOG.md', './doc']
   },
   root: '/Flu-UI/',
-  plugins: ['bisheng-plugin-react?lang=__react'],
+  plugins: [
+    'bisheng-plugin-description',
+    'bisheng-plugin-toc?maxDepth=2&keepElem',
+    'bisheng-plugin-react?lang=__react'
+  ],
   //webpack config,可在此覆盖默认配置
   webpackConfig(config) {
+    // TODO: 配置fluui的alias
     return config
   }
 }
